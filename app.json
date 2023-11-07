@@ -1,4 +1,4 @@
-{
+To{
     "name": "Echo Speaks",
     "description": "Amazon Login Proxy for Echo Speaks Integration on Hubitat and SmartThings",
     "repository": "https://github.com/tonesto7/echo-speaks-server",
@@ -18,7 +18,7 @@
         },
         "regionLocale": {
             "description": "the region language to use.",
-            "value": "en-au"
+            "value": "en-US" 
         },
         "serviceDebug": {
             "description": "This is used to tell the service to provide more detailed logs.",
