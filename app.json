@@ -6,8 +6,8 @@
     "logo": "https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/icons/echo_speaks.1x.png",
     "keywords": ["alexa", "hubitat", "smartthings", "echo", "tts"],
     "env": {
-        "amazonDomain": { 
-            "description": amazon.com "Used by the service to define the correct domain for your region"
+        "amazon.com": { 
+            "description": "Used by the service to define the correct domain for your region"
         },
         "hostUrl": {
             "description": "Dynamic URL generated for this heroku instance"
