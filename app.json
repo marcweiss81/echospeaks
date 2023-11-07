@@ -7,7 +7,7 @@ To{
     "keywords": ["alexa", "hubitat", "smartthings", "echo", "tts"],
     "env": {
         "amazonDomain": {
-            "description":"amazon.com.au"
+            "description":"Amazon.com"
         },
         "hostUrl": {
             "description":"pipeline-xxxxxx-xxxxxx.herokuapp.com"
