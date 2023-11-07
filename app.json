@@ -7,10 +7,10 @@
     "keywords": ["alexa", "hubitat", "smartthings", "echo", "tts"],
     "env": {
         "amazonDomain": {
-            "description": "Used by the service to define the correct domain for your region"
+            "description":"amazon.com.au"
         },
         "hostUrl": {
-            "description": "Dynamic URL generated for this heroku instance"
+            "description":"pipeline-xxxxxx-xxxxxx.herokuapp.com"
         },
         "useHeroku": {
             "description": "This is used to tell the service that is running under heroku and act accordingly.",
@@ -18,7 +18,7 @@
         },
         "regionLocale": {
             "description": "the region language to use.",
-            "value": "en-US"
+            "value": "en-au"
         },
         "serviceDebug": {
             "description": "This is used to tell the service to provide more detailed logs.",
