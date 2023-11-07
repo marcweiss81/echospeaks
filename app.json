@@ -1,4 +1,4 @@
-To{
+{
     "name": "Echo Speaks",
     "description": "Amazon Login Proxy for Echo Speaks Integration on Hubitat and SmartThings",
     "repository": "https://github.com/tonesto7/echo-speaks-server",
@@ -7,10 +7,10 @@ To{
     "keywords": ["alexa", "hubitat", "smartthings", "echo", "tts"],
     "env": {
         "amazonDomain": {
-            "description": "Amazon.com"
+            "description": "Used by the service to define the correct domain for your region"
         },
         "hostUrl": {
-            "description":"pipeline-xxxxxx-xxxxxx.herokuapp.com"
+            "description": "Dynamic URL generated for this heroku instance"
         },
         "useHeroku": {
             "description": "This is used to tell the service that is running under heroku and act accordingly.",
@@ -18,7 +18,7 @@ To{
         },
         "regionLocale": {
             "description": "the region language to use.",
-            "value": "en-US" 
+            "value": "en-US"
         },
         "serviceDebug": {
             "description": "This is used to tell the service to provide more detailed logs.",
